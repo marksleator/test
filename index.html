@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<title>Mark Sleator Design</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<style>
+.bottom-text {
+    font-family: "Libre Baskerville", sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1px;
+    }
+    
+    
+    
+body, html {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .w3-animate-fading{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+         -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+    }
+    @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+    @-o-keyframes fadein {}
+    
+    #stamp{
+        display: block;
+        width: 350px;
+        padding: 70% 0 26%;
+        transform: rotate(2deg);
+        filter: invert(100%);
+    }
+    
+    .fa {
+          padding: 20px;
+          font-size: 20px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+          background: transparent;
+          color: #fff;
+}
+    .fa-tumblr {
+  
+}
+    .fa:hover {
+    color:#ff6600;
+}
+    
+    .blog{
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        background-image: url(images/blog.png);
+        width: 32px;
+        height: 32px;
+    }
+    
+    .blog:hover{
+        background-image: url(images/blog-hover.png);
+        z-index: 1000;
+    }
+
+    #social{
+        margin: 0 auto;
+        width: 290px;
+        
+    }
+    
+</style>
+<body>
+
+
+  <div class="w3-animate-fading">
+  <div class="middle">
+    <img id="stamp" src="images/stamp.png">
+    </div>
+  
+  <p class="bottom-text">New Website Coming Soon</p>
+    <div id="social">
+    <a href="http://marksleatorblog.tumblr.com/" class="fa fa-tumblr"></a>
+    <a href="mailto:M1-Sleator@ulster.ac.uk" class="fa"><div class="blog"></div></a>
+    <a href="https://github.com/marksleator/" class="fa fa-github"></a>
+    </div>
+        
+      </div>
+</body>
+</html>
